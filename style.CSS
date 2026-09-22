@@ -1,0 +1,152 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Announcement Bar */
+.announcement-bar {
+  background-color: hsl(36, 88%, 67%);
+  border-bottom: 1px solid #f0e6d6;
+  padding: 8px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 13px;
+  color: rgb(59, 59, 59);
+}
+
+.announcement-track span {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+/* Header */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #fff;
+}
+
+.header-left, .header-right {
+  flex: 1;
+}
+
+.header-right {
+  text-align: right;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #d7e6b4;
+  font-size: 14px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #333;
+}
+
+.brand-title {
+  font-family: 'Georgia', serif;
+  font-size: 32px;
+  color: #a82024; /* Maroon brand color */
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.brand-tagline {
+  font-size: 10px;
+  text-align: center;
+  color: #474747;
+  letter-spacing: 0.5px;
+  margin-top: -2px;
+}
+
+.account-link {
+  text-decoration: none;
+  color: #666;
+  font-size: 13px;
+}
+
+/* Navigation Bar */
+.navbar {
+  border-top: 1px solid #f59090;
+  border-bottom: 1px solid #d85d5d;
+  background-color: #d85d5d;
+  padding: 12px 0;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 25px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #80e980;
+  font-size: 13px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar a:hover, .navbar a.active {
+  color: #48d42c;
+  font-weight: bold;
+}
+
+/* Hero Banner */
+.hero-banner {
+  height: 260px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+              url(''); /* Placeholder background image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero-overlay h2 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
+
+/* Filter Section */
+.filter-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.filter-btn {
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+}
+
+.product-count {
+  font-size: 13px;
+  color: #777;
+}
